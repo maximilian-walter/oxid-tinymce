@@ -13,11 +13,7 @@ Installation
 =============
 As Git Submodule (recommended)
 -------------
-Go to your shop root-directory and create a new directory called "mwtinymce" in your modules-directory
-
-    mkdir modules/mwtinymce
-
-Add new submodule:
+Go to your shop root-directory and add a new submodule:
 
     git submodule add git://github.com/maximilian-walter/oxid-tinymce.git modules/mwtinymce
 
