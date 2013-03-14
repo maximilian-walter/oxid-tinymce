@@ -1,0 +1,1 @@
+tinyMCE.addI18n('de.imageupload',{"upload_image":"Bild hochladen"});
