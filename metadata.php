@@ -18,7 +18,9 @@ $aModule = array(
   'author'      => 'Maximilian Walter',
   'email'       => 'mail@max-walter.net',
   'url'         => 'http://max-walter.net/',
-  'extend'      => array(),
+  'extend'      => array(
+      'oxviewconfig' => 'mwtinymce/core/mwtinymceoxviewconfig',
+  ),
   'files'       => array(
     'MwTinyMceUtils' => 'mwtinymce/lib/mwtinymceutils.php',
     'mwtinymce_upload' => 'mwtinymce/application/controllers/admin/mwtinymce_upload.php',
@@ -31,6 +33,7 @@ $aModule = array(
   ),
   'settings' => array(
     array('group' => 'mwtinymce', 'name' => 'sMwTinyMceUploadDir', 'type' => 'str', 'value' => 'pictures/wysiwigpro'),
+    array('group' => 'mwtinymce', 'name' => 'aMwTinyMceEnabledClasses', 'type' => 'arr', 'value' => array('article_main', 'news_text', 'content_main')),
   ),
   'events'       => array(
     'onDeactivate' => 'MwTinyMceUtils::onDeactivate'
