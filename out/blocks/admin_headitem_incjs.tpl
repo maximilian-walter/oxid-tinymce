@@ -1,5 +1,5 @@
 [{$smarty.block.parent}]
-[{if $oViewConf->getActiveClassName() eq 'article_main' or $oViewConf->getActiveClassName() eq 'news_text' or $oViewConf->getActiveClassName() eq 'content_main'}]
+[{ if $oViewConf->isTinyMceActive() }]
 <script type="text/javascript" src="[{$oViewConf->getModuleUrl('mwtinymce', 'vendor/tiny_mce/tiny_mce.js')}]"></script>
 <script type="text/javascript">
     (function() {
