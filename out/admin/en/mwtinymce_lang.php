@@ -14,6 +14,7 @@ $aLang = array(
 
   'SHOP_MODULE_GROUP_mwtinymce'     => 'Main',
   'SHOP_MODULE_sMwTinyMceUploadDir' => 'Upload-Directory',
+  'SHOP_MODULE_aMwTinyMceEnabledClasses' => 'Classes to apply TinyMCE editor',
 );
 
 /*
