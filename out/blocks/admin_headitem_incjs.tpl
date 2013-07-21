@@ -1,5 +1,5 @@
 [{$smarty.block.parent}]
-[{ if $oViewConf->isTinyMceActive() }]
+[{if $oViewConf->isTinyMceActive()}]
 <script type="text/javascript" src="[{$oViewConf->getModuleUrl('mwtinymce', 'vendor/tiny_mce/tiny_mce.js')}]"></script>
 <script type="text/javascript">
     (function() {

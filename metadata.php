@@ -14,12 +14,12 @@ $aModule = array(
     'en' => 'Integrates the TinyMCE-editor into the OXID backend',
     'de' => 'Integriert den TinyMCE-Editor in das OXID-Backend',
   ),
-  'version'     => '1.0.0',
+  'version'     => '1.0.1',
   'author'      => 'Maximilian Walter',
   'email'       => 'mail@max-walter.net',
   'url'         => 'http://max-walter.net/',
   'extend'      => array(
-      'oxviewconfig' => 'mwtinymce/core/mwtinymceoxviewconfig',
+    'oxviewconfig' => 'mwtinymce/core/mwtinymceoxviewconfig',
   ),
   'files'       => array(
     'MwTinyMceUtils' => 'mwtinymce/lib/mwtinymceutils.php',
@@ -33,7 +33,7 @@ $aModule = array(
   ),
   'settings' => array(
     array('group' => 'mwtinymce', 'name' => 'sMwTinyMceUploadDir', 'type' => 'str', 'value' => 'pictures/wysiwigpro'),
-    array('group' => 'mwtinymce', 'name' => 'aMwTinyMceEnabledClasses', 'type' => 'arr', 'value' => array('article_main', 'news_text', 'content_main')),
+    array('group' => 'mwtinymce', 'name' => 'aMwTinyMceEnabledClasses', 'type' => 'arr', 'value' => array('article_main', 'news_text', 'content_main', 'category_text')),
   ),
   'events'       => array(
     'onDeactivate' => 'MwTinyMceUtils::onDeactivate'

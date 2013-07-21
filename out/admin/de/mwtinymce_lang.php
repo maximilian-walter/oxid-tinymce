@@ -10,11 +10,11 @@ $sLangName  = "Deutsch";
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
 $aLang = array(
-    'charset' => 'UTF-8',
+  'charset' => 'UTF-8',
 
-    'SHOP_MODULE_GROUP_mwtinymce'     => 'Allgemein',
-    'SHOP_MODULE_sMwTinyMceUploadDir' => 'Upload-Verzeichnis',
-    'SHOP_MODULE_aMwTinyMceEnabledClasses' => 'Classes to apply TinyMCE editor',
+  'SHOP_MODULE_GROUP_mwtinymce'          => 'Allgemein',
+  'SHOP_MODULE_sMwTinyMceUploadDir'      => 'Upload-Verzeichnis',
+  'SHOP_MODULE_aMwTinyMceEnabledClasses' => 'Klassen in denen der TinyMCE Editor eingebunden wird',
 );
 
 /*
