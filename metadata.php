@@ -16,7 +16,7 @@ $aModule = array(
   ),
   'version'     => '1.0.1',
   'author'      => 'Maximilian Walter',
-  'email'       => 'mail@max-walter.net',
+  'email'       => 'github@max-walter.net',
   'url'         => 'http://max-walter.net/',
   'extend'      => array(
     'oxviewconfig' => 'mwtinymce/core/mwtinymceoxviewconfig',
