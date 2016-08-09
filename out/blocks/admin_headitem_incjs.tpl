@@ -9,7 +9,7 @@
             theme : "advanced",
             plugins : "autolink,lists,table,media,searchreplace,contextmenu,paste,wordcount,imageupload",
 
-            language : "[{php}]echo oxRegistry::getLang()->getLanguageAbbr(oxRegistry::getSession()->getVar('tpllanguage'));[{/php}]",
+            language : "[{php}]echo oxRegistry::getLang()->getLanguageAbbr(oxRegistry::getSession()->getVariable('tpllanguage'));[{/php}]",
 
             relative_urls : false,
             forced_root_block: false,

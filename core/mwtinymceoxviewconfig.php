@@ -27,7 +27,7 @@ class mwtinymceoxviewconfig extends mwtinymceoxviewconfig_parent
    * @return bool
    */
   public function isTinyMceActive() {
-    return in_array($this->getActiveClassName(), oxConfig::getInstance()->getConfigParam('aMwTinyMceEnabledClasses'));
+    return in_array($this->getActiveClassName(), $this->getConfig()->getConfigParam('aMwTinyMceEnabledClasses'));
   }
 
 }
