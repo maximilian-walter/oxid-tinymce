@@ -51,7 +51,7 @@ class MwTinyMce_Upload extends oxAdminDetails
           throw new Exception('Upload-directory is not configured');
         }
 
-        $sImageUrl = oxUtilsFile::getInstance()->processFile('image', $oConfig->getOutDir(false) . $sUploadDir);
+        $sImageUrl = oxRegistry::get('oxUtilsFile')->processFile('image', $oConfig->getOutDir(false) . $sUploadDir);
 
         if ($sImageUrl) {
           $this->_aViewData['success'] = true;
@@ -59,7 +59,7 @@ class MwTinyMce_Upload extends oxAdminDetails
         }
       }
       catch (Exception $e) {
-        oxUtilsView::getInstance()->addErrorToDisplay($e->getMessage());
+        oxRegistry::get('oxUtilsView')->addErrorToDisplay($e->getMessage());
       }
     }
   }
